@@ -48,7 +48,7 @@ console.log(`Rata-rata: ${oddAverage}`);
 let minComparison =
   evenMin > oddMin ? "lebih besar array genap" : "lebih besar array ganjil";
 let maxComparison =
-  evenMax > oddMax ? "lebih besar array genap" : "lebih besar array ganjil";
+  oddMax > evenMin ? "lebih besar array genap" : "lebih besar array ganjil";
 let totalComparison =
   evenTotal === oddTotal
     ? "memiliki nilai sama antara array genap dan ganjil"
